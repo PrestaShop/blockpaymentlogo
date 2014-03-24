@@ -42,7 +42,7 @@ class BlockPaymentLogo extends Module
 
 		$this->displayName = $this->l('Payment logos block.');
 		$this->description = $this->l('Adds a block which displays all of your payment logos.');
-		$this->ps_versions_compliancy = array('min' => '1.5.6.1', 'max' => _PS_VERSION_);
+		$this->ps_versions_compliancy = array('min' => '1.6', 'max' => _PS_VERSION_);
 	}
 
 	public function install()
